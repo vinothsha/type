@@ -1,4 +1,4 @@
-module userservice
+module github.com/vinothsha/type
 
 go 1.16
 
