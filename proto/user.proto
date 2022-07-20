@@ -2,7 +2,7 @@ syntax="proto3";
 
 package proto;
 
-option go_package="types/.";
+option go_package="types/pb";
 import "google/api/annotations.proto";
 message BasicDetails{
     string first_name=1;

@@ -9,4 +9,5 @@ genpbgo:
 
 #go get github.com/fullstorydev/grpcurl 
 #sudo apt install golang-goprotobuf-dev
-#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
+# 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
+# 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
