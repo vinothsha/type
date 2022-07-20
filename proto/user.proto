@@ -1,8 +1,8 @@
 syntax="proto3";
 
-package proto;
+package type;
 
-option go_package="types/pb";
+option go_package="./pb";
 import "google/api/annotations.proto";
 message BasicDetails{
     string first_name=1;
