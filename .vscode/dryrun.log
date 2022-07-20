@@ -1,0 +1,4 @@
+make.exe: Entering directory `c:/Users/outstager.vinoth/go/src/outstager.vinoth/type'
+protoc --go_out=. --go-grpc_out=. --grpc-gateway_out=.  proto/user.proto
+make.exe: Leaving directory `c:/Users/outstager.vinoth/go/src/outstager.vinoth/type'
+ 
