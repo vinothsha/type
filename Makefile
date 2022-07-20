@@ -9,5 +9,5 @@ genpbgo:
 
 #go get github.com/fullstorydev/grpcurl 
 #sudo apt install golang-goprotobuf-dev
-# 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
-# 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
+#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
+#protoc --go-grpc_out=require_unimplemented_servers=false:. proto/user.proto
