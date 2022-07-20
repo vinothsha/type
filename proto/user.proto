@@ -19,13 +19,12 @@ message Favourite{
     string mobile=4;
     string status=5;
 }
-message Result{
-    string user_id=1;
-    string fav_id=2;
+message BasicDetailsRequest{
+    BasicDetails basicdetails=1;
 }
 
 service UserService{
-    rpc CreateUser(BasicDetails)returns(Result){
+    rpc CreateUser(BasicDetailsRequest)returns(BasicDetails){
         option(google.api.http)={
             post:"/create"
             body:"*"
