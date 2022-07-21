@@ -35,6 +35,9 @@ message GetRequest {
   int32 id = 1;
   string uid = 2;
 }
+message DeleteResponse {
+  repeated string uid=1;
+}
 service UserService{
     rpc CreateUser(BasicDetailsRequest)returns(BasicDetails){
         option(google.api.http)={
@@ -50,6 +53,12 @@ service UserService{
     rpc GetUser(GetRequest) returns (BasicDetails) {
     option (google.api.http) = {
       get : "/user/{uid}"
-    };
-  }
+      };
+    }
+    rpc DeteleUser(GetRequest)returns(DeleteResponse){
+      option(google.api.http)={
+        post:"/user/delete/{uid}"
+      };
+    }
+
 }

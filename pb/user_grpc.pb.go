@@ -25,6 +25,7 @@ type UserServiceClient interface {
 	CreateUser(ctx context.Context, in *BasicDetailsRequest, opts ...grpc.CallOption) (*BasicDetails, error)
 	ListAllUsers(ctx context.Context, in *GetRequest, opts ...grpc.CallOption) (*ByteResponse, error)
 	GetUser(ctx context.Context, in *GetRequest, opts ...grpc.CallOption) (*BasicDetails, error)
+	DeteleUser(ctx context.Context, in *GetRequest, opts ...grpc.CallOption) (*DeleteResponse, error)
 }
 
 type userServiceClient struct {
@@ -62,6 +63,15 @@ func (c *userServiceClient) GetUser(ctx context.Context, in *GetRequest, opts ..
 	return out, nil
 }
 
+func (c *userServiceClient) DeteleUser(ctx context.Context, in *GetRequest, opts ...grpc.CallOption) (*DeleteResponse, error) {
+	out := new(DeleteResponse)
+	err := c.cc.Invoke(ctx, "/type.UserService/DeteleUser", in, out, opts...)
+	if err != nil {
+		return nil, err
+	}
+	return out, nil
+}
+
 // UserServiceServer is the server API for UserService service.
 // All implementations should embed UnimplementedUserServiceServer
 // for forward compatibility
@@ -69,6 +79,7 @@ type UserServiceServer interface {
 	CreateUser(context.Context, *BasicDetailsRequest) (*BasicDetails, error)
 	ListAllUsers(context.Context, *GetRequest) (*ByteResponse, error)
 	GetUser(context.Context, *GetRequest) (*BasicDetails, error)
+	DeteleUser(context.Context, *GetRequest) (*DeleteResponse, error)
 }
 
 // UnimplementedUserServiceServer should be embedded to have forward compatible implementations.
@@ -83,6 +94,9 @@ func (UnimplementedUserServiceServer) ListAllUsers(context.Context, *GetRequest)
 }
 func (UnimplementedUserServiceServer) GetUser(context.Context, *GetRequest) (*BasicDetails, error) {
 	return nil, status.Errorf(codes.Unimplemented, "method GetUser not implemented")
+}
+func (UnimplementedUserServiceServer) DeteleUser(context.Context, *GetRequest) (*DeleteResponse, error) {
+	return nil, status.Errorf(codes.Unimplemented, "method DeteleUser not implemented")
 }
 
 // UnsafeUserServiceServer may be embedded to opt out of forward compatibility for this service.
@@ -150,6 +164,24 @@ func _UserService_GetUser_Handler(srv interface{}, ctx context.Context, dec func
 	return interceptor(ctx, in, info, handler)
 }
 
+func _UserService_DeteleUser_Handler(srv interface{}, ctx context.Context, dec func(interface{}) error, interceptor grpc.UnaryServerInterceptor) (interface{}, error) {
+	in := new(GetRequest)
+	if err := dec(in); err != nil {
+		return nil, err
+	}
+	if interceptor == nil {
+		return srv.(UserServiceServer).DeteleUser(ctx, in)
+	}
+	info := &grpc.UnaryServerInfo{
+		Server:     srv,
+		FullMethod: "/type.UserService/DeteleUser",
+	}
+	handler := func(ctx context.Context, req interface{}) (interface{}, error) {
+		return srv.(UserServiceServer).DeteleUser(ctx, req.(*GetRequest))
+	}
+	return interceptor(ctx, in, info, handler)
+}
+
 // UserService_ServiceDesc is the grpc.ServiceDesc for UserService service.
 // It's only intended for direct use with grpc.RegisterService,
 // and not to be introspected or modified (even as a copy)
@@ -168,6 +200,10 @@ var UserService_ServiceDesc = grpc.ServiceDesc{
 		{
 			MethodName: "GetUser",
 			Handler:    _UserService_GetUser_Handler,
+		},
+		{
+			MethodName: "DeteleUser",
+			Handler:    _UserService_DeteleUser_Handler,
 		},
 	},
 	Streams:  []grpc.StreamDesc{},
