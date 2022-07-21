@@ -8,7 +8,7 @@ make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --quest
 # This program built for i386-pc-mingw32
  
 
-# Make data base, printed on Wed Jul 20 19:08:30 2022
+# Make data base, printed on Thu Jul 21 11:10:12 2022
 
 # Variables
 
@@ -40,7 +40,7 @@ HOMEDRIVE = C:
 # makefile
 CURDIR := c:/Users/outstager.vinoth/go/src/github.com/vinothsha/type
 # makefile
-SHELL = C:/Program Files/Git/usr/bin/sh.exe
+SHELL = sh.exe
 # environment
 CONFIG_SITE = C:/Program Files/Git/etc/config.site
 # environment
@@ -50,10 +50,10 @@ VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupp
 # environment
 _ = C:/Users/outstager.vinoth/AppData/Local/Programs/Microsoft VS Code/Code.exe
 # environment
-ONEDRIVE = C:\Users\outstager.vi 
-noth\OneDrive
+ONEDRIVE = C:\Users\outstager.vinoth\OneDrive
 # environment
-CLIENTNAME = OCS-L00055
+C 
+LIENTNAME = OCS-L00055
 # environment
 PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
 # makefile (from `makefile', line 1)
@@ -67,8 +67,8 @@ VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
 # environment
 PROGRAMW6432 = C:\Program Files
 # environment
-INFOPATH = C:\Program Files\Git\usr\local\info;C:\Program Fi 
-les\Git\usr\share\info;C:\Program Files\Git\usr\info;C:\Program Files\Git\share\info
+INFOPATH = C:\Program Files\Git\usr\local\info;C:\Program Files\Git\usr\share\info;C:\Pro 
+gram Files\Git\usr\info;C:\Program Files\Git\share\info
 # environment
 PROGRAMDATA = C:\ProgramData
 # environment
@@ -78,23 +78,23 @@ VSCODE_CWD = C:\Users\outstager.vinoth\go\src\github.com\vinothsha\type
 # environment
 GOPROXY = https://proxy.golang.org,direct
 # environment
-PATH = C:\Users\outstager.vinoth\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\outstager.vinoth\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files (x86)\GnuWin32\bin;C:\protoc-21.1-win64\bin;C:\Program Files\Git\cmd;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Go\bin;C:\Program Files\PowerShell\7;C:\dgraph-io;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\outstager.vinoth\AppDa 
-ta\Local\Microsoft\WindowsApps;C:\Users\outstager.vinoth\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\outstager.vinoth\go\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+PATH = C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\GnuWin32\bin;C:\protoc-21.1-win64\bin;C:\Program  
+Files\Git\cmd;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Go\bin;C:\Program Files\PowerShell\7\;C:\dgraph-io;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\outstager.vinoth\AppData\Local\Microsoft\WindowsApps;C:\Users\outstager.vinoth\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\outstager.vinoth\go\bin
 # environment
 COMMONPROGRAMW6432 = C:\Program Files\Common Files
 # environment
 TERM_PROGRAM_VERSION = 3.6.1
 # environment
-PROCESSOR_ARCHITECTURE = x86
+PROCESSOR_ARCHITE 
+CTURE = x86
 # environment
 USERPROFILE = C:\Users\outstager.vinoth
 # environment
 MSYSTEM_CARCH = x86_64
 # environment
 EXEPATH = C:\Program Files\Git
-# environm 
-ent
-BASH_ENV = C:/Program Files/Git/etc/bash.bashrc
+# environment
+BASH_ENV = /etc/bash.bashrc
 # environment
 ALLUSERSPROFILE = C:\ProgramData
 # environment
@@ -108,28 +108,27 @@ NUMBER_OF_PROCESSORS = 4
 # environment
 ELECTRON_RUN_AS_NODE = 1
 # environment
-ORIGINAL_TEMP = C:/Users/OUTSTA~1.VIN/AppData/Local/Temp
+ORIGINAL_TEMP = C:/Users/OUTSTA~1.VI 
+N/AppData/Local/Temp
 # default
 .FEATURES := target-specific order-only second-expansion else-if archives
 # automatic
 %F = $(notdir $%)
-# e 
-nvironment
+# environment
 DISPLAY = needs-to-be-defined
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_4780_NLQRVGKUJIUXAMFD
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_22264_MNJANAWYLTLMHNEV
 # environment
-ORIGINAL_PATH = C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\outstager.vinoth\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files (x86)\GnuWin32\bin;C:\protoc-21.1-win64\bin;C:\Program Files\Git\cmd;C:\Program Files\Microsoft VS Code\bin;C:\Program File 
-s\Go\bin;C:\Program Files\PowerShell\7;C:\dgraph-io;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\outstager.vinoth\AppData\Local\Microsoft\WindowsApps;C:\Users\outstager.vinoth\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\outstager.vinoth\go\bin
+ORIGINAL_PATH = C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\outstager.vinoth\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files (x86)\GnuWin32\bin;C:\protoc-21.1-win64\bin;C:\Program Files\Git\cmd;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Go\bin;C:\Program Files\PowerShell\7;C:\dgraph-io;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\outstager.vinoth\AppData\Local\Microsoft\WindowsApps;C:\Users\outstager.vinoth\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\outstager.vinoth\go\bin
 # environment
 COMPUTERNAME = WIN-10-VDI060
 # environment
-PWD = C:/Users/outstager.vinoth/go/src/github.com/vinothsha/type
+PWD = C:/Use 
+rs/outstager.vinoth/go/src/gitlab.dt.ae/cerebrum-micro-gateway/tap-user-service
 # environment
 PROGRAMFILES = C:\Program Files (x86)
 # environment
-USERDNSDOMAIN = DT.L 
-OCAL
+USERDNSDOMAIN = DT.LOCAL
 # environment
 DRIVERDATA = C:\Windows\System32\Drivers\DriverData
 # environment
@@ -141,8 +140,8 @@ USERNAME = outstager.vinoth
 # environment
 PUBLIC = C:\Users\Public
 # environment
-MANPATH = C:\Program Files\Git\mingw64\local\man;C:\Program Files\Git\mingw64\share\man;C:\Program Files\Git\usr\local\man;C:\Program Files\Git\usr\share\man;C:\Program Fi 
-les\Git\usr\man;C:\Program Files\Git\share\man
+MANPA 
+TH = C:\Program Files\Git\mingw64\local\man;C:\Program Files\Git\mingw64\share\man;C:\Program Files\Git\usr\local\man;C:\Program Files\Git\usr\share\man;C:\Program Files\Git\usr\man;C:\Program Files\Git\share\man
 # environment
 GOMODCACHE = C:\Users\outstager.vinoth\go\pkg\mod
 # environment
@@ -152,14 +151,14 @@ VSCODE_CLI = 1
 # environment
 VSCODE_CODE_CACHE_PATH = C:\Users\outstager.vinoth\AppData\Roaming\Code\CachedData\3b889b090b5ad5793f524b5d1d39fda662b96a2a
 # environment
-APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+APPLICA 
+TION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
 # environment
 COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
 # environment
 LOGONSERVER = \\NEWDOMAIN
 # environment
-V 
-SCODE_HANDLES_UNCAUGHT_ERRORS = true
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # environment
 USERDOMAIN = DT
 # environment
@@ -181,8 +180,7 @@ MINGW_CHOST = x86_64-w64-mingw32
 # makefile
 .DEFAULT_GOAL := genpbgo
 # environment
-PRO 
-GRAMFILES(X86) = C:\Program Files (x86)
+PROGRAMFILES(X86) = C:\Program Files (x86)
 # automatic
 %D = $(patsubst %/,%,$(dir $%))
 # environment
@@ -192,7 +190,8 @@ PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\Wi
 # default
 MAKE_COMMAND := make.exe
 # environment
-PROCESSOR_ARCHITEW6432 = AMD64
+PROCESSOR_ARCHITEW643 
+2 = AMD64
 # environment
 TERM_PROGRAM = mintty
 # default
@@ -201,8 +200,7 @@ TERM_PROGRAM = mintty
 TMPDIR = C:\Users\OUTSTA~1.VIN\AppData\Local\Temp
 # automatic
 *F = $(notdir $*)
-# 
- environment
+# environment
 PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 79 Stepping 1, GenuineIntel
 # environment
 OS = Windows_NT
@@ -212,7 +210,8 @@ VSCODE_IPC_HOOK = \\.\pipe\e18b0ab3a27db7ebbce7a3551228c7e8-1.69.2-main-sock
 HOMEPATH = \Users\outstager.vinoth
 # environment
 COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
-# environment
+# environment 
+
 PROMPT = $P$G
 # environment
 MFLAGS = -Rrqp
@@ -220,8 +219,7 @@ MFLAGS = -Rrqp
 *D = $(patsubst %/,%,$(dir $*))
 # environment
 ORIGINAL_TMP = C:/Users/OUTSTA~1.VIN/AppData/Local/Temp
-# enviro 
-nment
+# environment
 SYSTEMROOT = C:\Windows
 # automatic
 +D = $(patsubst %/,%,$(dir $+))
@@ -235,7 +233,8 @@ APPDATA = C:\Users\outstager.vinoth\AppData\Roaming
 TEMP = C:\Users\OUTSTA~1.VIN\AppData\Local\Temp
 # environment
 COMSPEC = C:\Windows\system32\cmd.exe
-# environment
+# en 
+vironment
 MSYSTEM = MINGW64
 # default
 MAKEFILES := 
@@ -246,14 +245,13 @@ GOPRIVATE = "gitlab.dt.ae"
 # environment
 LC_ALL = C
 # automatic
-^F = $ 
-(notdir $^)
+^F = $(notdir $^)
 # default
 SUFFIXES := 
 # environment
 SYSTEMDRIVE = C:
 # environment
-SESSIONNAME = RDP-Tcp#4
+SESSIONNAME = RDP-Tcp#0
 # environment
 PROCESSOR_REVISION = 4f01
 # environment
@@ -267,14 +265,14 @@ TERM = xterm
 # environment
 FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
 # environment
-VSCODE_PID = 4780
+VSCODE_PID 
+ = 22264
 # environment
 MINGW_PACKAGE_PREFIX = mingw-w64-x86_64
 # environment
 USERDOMAIN_ROAMINGPROFILE = DT
 # variable set hash-table stats:
-# Load=123/1024=12%, Rehas 
-h=0, Collisions=8/134=6%
+# Load=123/1024=12%, Rehash=0, Collisions=12/144=8%
 
 # Pattern-specific Variable Values
 
@@ -282,14 +280,30 @@ h=0, Collisions=8/134=6%
 
 # Directories
 
-# . (key c:/Users/outstager.vinoth/go/src/github.com/vinothsha/type, mtime 1658327513): 10 files, no impossibilities.
-# C:\Program Files\Git\mingw64\bin (key C:/Program Files/Git/mingw64/bin, mtime 1657712804): 143 files, no impossibilities.
-# C:\Program Files\Git\usr\bin (key C:/Program Files/Git/usr/bin, mtime 1657712803): 306 files, no impossibilities so far.
-# C:\Program Files\Git\usr\loc 
-al\bin: could not be stat'd.
-# C:\Users\outstager.vinoth\bin: could not be stat'd.
+# C:\Program Files\Docker\Docker\resources\bin (key C:/Program Files/Docker/Docker/resources/bin, mtime 1658231607): 13 files, no impossibilities.
+# C:\Program Files\Go\bin (key C:/Program Files/Go/bin, mtime 1657991764): 4 fil 
+es, no impossibilities.
+# C:\dgraph-io: could not be stat'd.
+# C:\Users\outstager.vinoth\go\bin (key C:/Users/outstager.vinoth/go/bin, mtime 1658306080): 10 files, no impossibilities.
+# C:\Windows\System32\WindowsPowerShell\v1.0\ (key C:/Windows/System32/WindowsPowerShell/v1.0/, mtime 1650485246): 30 files, no impossibilities.
+# C:\Windows\System32\Wbem (key C:/Windows/System32/Wbem, mtime 1657790700): 169 files, no impossibilities.
+# . (key c:/Users/outstager.vinoth/go/src/github.com/vinothsha/type, mtime  
+1658330551): 10 files, no impossibilities.
+# C:\protoc-21.1-win64\bin (key C:/protoc-21.1-win64/bin, mtime 1656300597): 3 files, no impossibilities.
+# C:\Users\outstager.vinoth\AppData\Local\Programs\Microsoft VS Code\bin (key C:/Users/outstager.vinoth/AppData/Local/Programs/Microsoft VS Code/bin, mtime 1658235187): 4 files, no impossibilities.
+# C:\Program Files\PowerShell\7\ (key C:/Program Files/PowerShell/7/, mtime 1658216102): 479 files, no impossibilities.
+# C:\Windows\System32\OpenSSH\: could not be  
+stat'd.
+# C:\Program Files\Microsoft VS Code\bin: could not be stat'd.
+# C:\Windows (key C:/Windows, mtime 1657790696): 105 files, no impossibilities.
+# C:\Users\outstager.vinoth\AppData\Local\Microsoft\WindowsApps (key C:/Users/outstager.vinoth/AppData/Local/Microsoft/WindowsApps, mtime 1658236679): 15 files, no impossibilities.
+# C:\ProgramData\DockerDesktop\version-bin: could not be stat'd.
+# C:\Program Files\Git\cmd (key C:/Program Files/Git/cmd, mtime 1657712804): 8 files, no impossibilities.
+# C:\Wind 
+ows\system32 (key C:/Windows/system32, mtime 1658332044): 2810 files, no impossibilities.
+# C:\Program Files (x86)\GnuWin32\bin (key C:/Program Files (x86)/GnuWin32/bin, mtime 1655891065): 5 files, no impossibilities.
 
-# 459 files, no impossibilities in 5 directories.
+# 3665 files, no impossibilities in 18 directories.
 
 # Implicit Rules
 
@@ -300,17 +314,19 @@ al\bin: could not be stat'd.
 # Not a target:
 all:
 #  Command-line target.
-#  Implicit rule search has not been done.
-#  Modification time never checked.
+#  Implicit rule search has been done.
+#  File does not exist.
 #  File has not been updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Reha 
+sh=0, Collisions=0/0=0%
 
 genpbgo:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
 #  commands to execute (from `makefile', line 2):
-	prot 
-oc --go_out=. --go-grpc_out=. --grpc-gateway_out=.  proto/user.proto
+	protoc --go_out=. --go-grpc_out=. --grpc-gateway_out=.  proto/user.proto
 	
 
 # Not a target:
@@ -321,9 +337,13 @@ oc --go_out=. --go-grpc_out=. --grpc-gateway_out=.  proto/user.proto
 
 # Not a target:
 makefile:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
+#  Implicit rule search has been done.
+#  Last modified 2022-07-20 22:16:09
+#  F 
+ile has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
 
 # Not a target:
 .SUFFIXES:
@@ -332,8 +352,7 @@ makefile:
 #  File has not been updated.
 
 # files hash-table stats:
-# Loa 
-d=5/1024=0%, Rehash=0, Collisions=0/6=0%
+# Load=5/1024=0%, Rehash=0, Collisions=0/16=0%
 # VPATH Search Paths
 
 # No `vpath' search paths.
@@ -342,11 +361,12 @@ d=5/1024=0%, Rehash=0, Collisions=0/6=0%
 
 # # of strings in strcache: 1
 # # of strcache buffers: 1
-# strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
+# strcache size: total = 
+ 4096 / max = 4096 / min = 4096 / avg = 4096
 # strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
 
-# Finished Make data base on Wed Jul 20 19:08:30 2022
+# Finished Make data base on Thu Jul 21 11:10:12 2022
 
  
-makefile:12: *** missing separator.  Stop.
+make.exe: *** No rule to make target `all'.  Stop.
 
