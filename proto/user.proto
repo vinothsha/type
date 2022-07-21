@@ -25,12 +25,12 @@ message BasicDetailsRequest{
 message ByteResponse {
   bytes res = 1;
 }
-message ListRequest {
-  int32 page = 1;
-  int32 pageSize = 2;
-  string sortBy = 3;
-  string query = 4;
-}
+// message ListRequest {
+//   int32 page = 1;
+//   int32 pageSize = 2;
+//   string sortBy = 3;
+//   string query = 4;
+// }
 message GetRequest {
   int32 id = 1;
   string uid = 2;
@@ -42,7 +42,7 @@ service UserService{
             body:"*"
         };
     }
-    rpc ListAllUsers(ListRequest) returns (ByteResponse) {
+    rpc ListAllUsers(GetRequest) returns (ByteResponse) {
     option (google.api.http) = {
         get : "/user"
       };

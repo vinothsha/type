@@ -1,5 +1,7 @@
 make.exe --dry-run --always-make --keep-going --print-directory
 make.exe: Entering directory `c:/Users/outstager.vinoth/go/src/github.com/vinothsha/type'
-protoc --go_out=. --go-grpc_out=. --grpc-gateway_out=.  proto/user.proto
+ 
+protoc --go_out=.  --grpc-gateway_out=.  proto/user.proto
+protoc --go-grpc_out=require_unimplemented_servers=false:. proto/user.proto
 make.exe: Leaving directory `c:/Users/outstager.vinoth/go/src/github.com/vinothsha/type'
  

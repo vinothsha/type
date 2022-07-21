@@ -9,7 +9,7 @@ genpbgo:
 
 #go get github.com/fullstorydev/grpcurl 
 #sudo apt install golang-goprotobuf-dev
-#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
+#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
 #protoc --go-grpc_out=require_unimplemented_servers=false:. proto/user.proto
 
 #git config core.autocrlf true
