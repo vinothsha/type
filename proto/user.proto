@@ -41,6 +41,9 @@ message GetRequest {
 message DeleteResponse {
   repeated string uid=1;
 }
+message UpdateResponse{
+  repeated string uid=1;
+}
 service UserService{
     rpc CreateUser(BasicDetailsRequest)returns(BasicDetails){
         option(google.api.http)={
@@ -61,6 +64,11 @@ service UserService{
     rpc DeteleUser(GetRequest)returns(DeleteResponse){
       option(google.api.http)={
         post:"/user/delete/{uid}"
+      };
+    }
+    rpc UpdateUser(BasicDetails)returns(UpdateResponse){
+      option (google.api.http)={
+        post:"/user/update"
       };
     }
 
