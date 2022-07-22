@@ -8,7 +8,7 @@ make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --quest
 # This program built for i386-pc-mingw32
  
 
-# Make data base, printed on Thu Jul 21 19:13:02 2022
+# Make data base, printed on Fri Jul 22 09:37:46 2022
 
 # Variables
 
@@ -67,8 +67,7 @@ VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
 # environment
 PROGRAMW6432 = C:\Program Files
 # environment
-INFOPATH = C:\Program Files\Git\usr\local\info;C:\Program Fi 
-les\Git\usr\share\info;C:\Program Files\Git\usr\info;C:\Program Files\Git\share\info
+INFOPATH = C:\Program Files\Git\usr\local\info;C:\Program Files\Git\usr\share\info;C:\Program Files\Git\usr\info;C:\Program Files\Git\share\info
 # environment
 PROGRAMDATA = C:\ProgramData
 # environment
@@ -119,7 +118,8 @@ DISPLAY = needs-to-be-defined
 # environment
 CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_22264_MNJANAWYLTLMHNEV
 # environment
-ORIGINAL_PATH = C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\outstager.vinoth\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files (x86)\GnuWin32\bin;C:\protoc-21.1-win64\bin;C:\Program Files\Git\cmd;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Go\bin;C:\Program Files\PowerShell\7;C:\dgraph-io;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\outstager.vinoth\AppData\Local\Microsoft\WindowsApps;C:\Users\outstager.vinoth\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\outstager.vinoth\go\bin
+ORIGINAL_PATH = C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\outstager.vinoth\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files (x86)\GnuWin32\bin;C:\protoc-21.1-win64\bin;C:\Program Files\Git\cmd;C:\Program Files\Microsoft VS Code\bin;C:\Program Fil 
+es\Go\bin;C:\Program Files\PowerShell\7;C:\dgraph-io;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\outstager.vinoth\AppData\Local\Microsoft\WindowsApps;C:\Users\outstager.vinoth\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\outstager.vinoth\go\bin
 # environment
 COMPUTERNAME = WIN-10-VDI060
 # environment
@@ -127,7 +127,8 @@ PWD = C:/Users/outstager.vinoth/go/src/github.com/vinothsha/type
 # environment
 PROGRAMFILES = C:\Program Files (x86)
 # environment
-USERDNSDOMAIN = DT.LOCAL
+USERDNSDOMAIN = DT. 
+LOCAL
 # environment
 DRIVERDATA = C:\Windows\System32\Drivers\DriverData
 # environment
@@ -192,16 +193,14 @@ MAKE_COMMAND := make.exe
 # environment
 PROCESSOR_ARCHITEW6432 = AMD64
 # environment
-OLDPWD = C:/Users/outstager.vinoth
-# environment
 TERM_PROGRAM = mintty
 # default
 .VARIABLES := 
 # environment
-TMPDIR = C:\Users\OUTSTA~1.VIN\ 
-AppData\Local\Temp
+TMPDIR = C:\Users\OUTSTA~1.VIN\AppData\Local\Temp
 # automatic
 *F = $(notdir $*)
+ 
 # environment
 PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 79 Stepping 1, GenuineIntel
 # environment
@@ -219,9 +218,9 @@ MFLAGS = -Rrqp
 # automatic
 *D = $(patsubst %/,%,$(dir $*))
 # environment
-ORIGINAL_TMP = 
- C:/Users/OUTSTA~1.VIN/AppData/Local/Temp
-# environment
+ORIGINAL_TMP = C:/Users/OUTSTA~1.VIN/AppData/Local/Temp
+# envir 
+onment
 SYSTEMROOT = C:\Windows
 # automatic
 +D = $(patsubst %/,%,$(dir $+))
@@ -242,12 +241,12 @@ MAKEFILES :=
 # automatic
 <F = $(notdir $<)
 # environment
-GOPRIVATE = "gitlab. 
-dt.ae"
+GOPRIVATE = "gitlab.dt.ae"
 # environment
 LC_ALL = C
 # automatic
-^F = $(notdir $^)
+^F =  
+$(notdir $^)
 # default
 SUFFIXES := 
 # environment
@@ -272,9 +271,9 @@ VSCODE_PID = 22264
 MINGW_PACKAGE_PREFIX = mingw-w64-x86_64
 # environment
 USERDOMAIN_ROAMINGPROFILE = DT
-# variab 
-le set hash-table stats:
-# Load=124/1024=12%, Rehash=0, Collisions=12/144=8%
+# variable set hash-table stats:
+# Load=123/1024=12%, Reh 
+ash=0, Collisions=12/143=8%
 
 # Pattern-specific Variable Values
 
@@ -284,9 +283,9 @@ le set hash-table stats:
 
 # . (key c:/Users/outstager.vinoth/go/src/github.com/vinothsha/type, mtime 1658330551): 10 files, no impossibilities.
 # C:\Program Files\Git\mingw64\bin (key C:/Program Files/Git/mingw64/bin, mtime 1657712804): 143 files, no impossibilities.
-# C:\Program Files\Git\usr\bin (key C:/Program Files/Git/usr/bin, mtime 1657712803): 306 files, no im 
-possibilities so far.
-# C:\Program Files\Git\usr\local\bin: could not be stat'd.
+# C:\Program Files\Git\usr\bin (key C:/Program Files/Git/usr/bin, mtime 1657712803): 306 files, no impossibilities so far.
+# C:\Program Files\Git\usr\ 
+local\bin: could not be stat'd.
 # C:\Users\outstager.vinoth\bin: could not be stat'd.
 
 # 459 files, no impossibilities in 5 directories.
@@ -308,9 +307,9 @@ all:
 
 genpbgo:
 #  Implicit rule search has not been done.
-#  Modif 
-ication time never checked.
-#  File has not been updated.
+#  Modification time never checked.
+#  File has not been  
+updated.
 #  commands to execute (from `makefile', line 2):
 	protoc --go_out=.  --grpc-gateway_out=.  proto/user.proto
 	protoc --go-grpc_out=require_unimplemented_servers=false:. proto/user.proto
@@ -325,10 +324,11 @@ ication time never checked.
 # Not a target:
 makefile:
 #  Implicit rule search has been done.
-#  Last modified 2022-07-21 12:11:46
+#  Last modified 2022-07-21 21:06:12
 #  File has been updated.
 #  Successfully updated.
-# variable set hash-table stats:
+# variable set hash-table 
+ stats:
 # Load=0/32=0%, Rehash=0, Collisions=0/0=0%
 
 # Not a target:
@@ -348,10 +348,11 @@ makefile:
 # # of strings in strcache: 1
 # # of strcache buffers: 1
 # strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
-# strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
-
-# Finished Make data base on Thu Jul 21 19:13:02 2022
-
- 
+# strcache free: total = 40 
 make.exe: *** No rule to make target `all'.  Stop.
 
+87 / max = 4087 / min = 4087 / avg = 4087
+
+# Finished Make data base on Fri Jul 22 09:37:46 2022
+
+ 

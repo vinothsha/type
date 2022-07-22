@@ -5,12 +5,14 @@ package type;
 option go_package="./pb";
 import "google/api/annotations.proto";
 message BasicDetails{
+  
     string first_name=1;
     string last_name=2;
     string email=3;
     string mobile=4;
     string status=5;
     repeated Favourite userfavourite=6; 
+    string uid=7;
 }
 message Favourite{
     string first_name=1;
@@ -18,6 +20,7 @@ message Favourite{
     string email=3;
     string mobile=4;
     string status=5;
+    string uid=6;
 }
 message BasicDetailsRequest{
     BasicDetails basicdetails=1;
