@@ -5,38 +5,25 @@ package type;
 option go_package="./pb";
 import "google/api/annotations.proto";
 message BasicDetails{
-  
-    string first_name=1;
-    string last_name=2;
-    string email=3;
-    string mobile=4;
-    string status=5;
-    repeated Favourite userfavourite=6; 
-    string uid=7;
+    string uid=1;
+    string first_name=2;
+    string last_name=3;
+    string email=4;
+    string mobile=5;
+    string status=6;
+    bool active=7;
+    repeated string userfavourite=8; 
+    
 }
-message Favourite{
-    string first_name=1;
-    string last_name=2;
-    string email=3;
-    string mobile=4;
-    string status=5;
-    string uid=6;
-}
+
 message BasicDetailsRequest{
     BasicDetails basicdetails=1;
 }
 message ByteResponse {
   bytes res = 1;
 }
-// message ListRequest {
-//   int32 page = 1;
-//   int32 pageSize = 2;
-//   string sortBy = 3;
-//   string query = 4;
-// }
 message GetRequest {
-  int32 id = 1;
-  string uid = 2;
+  string uid = 1;
 }
 message DeleteResponse {
   repeated string uid=1;
@@ -53,22 +40,22 @@ service UserService{
     }
     rpc ListAllUsers(GetRequest) returns (ByteResponse) {
     option (google.api.http) = {
-        get : "/user"
+        get : "/v1/user"
       };
     }
     rpc GetUser(GetRequest) returns (BasicDetails) {
     option (google.api.http) = {
-      get : "/user/{uid}"
+      get : "/v1/user/{uid}"
       };
     }
     rpc DeteleUser(GetRequest)returns(DeleteResponse){
       option(google.api.http)={
-        post:"/user/delete/{uid}"
+        post:"/v1/user/delete/{uid}"
       };
     }
     rpc UpdateUser(BasicDetails)returns(UpdateResponse){
       option (google.api.http)={
-        post:"/user/update"
+        post:"/v1/user/update"
       };
     }
 

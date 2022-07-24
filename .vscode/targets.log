@@ -6,8 +6,9 @@ make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --quest
 # PARTICULAR PURPOSE.
 
 # This program built for i386-pc-mingw32
+ 
 
-# Make data base, printed on Fri Jul 22 12:41:42 2022
+# Make data base, printed on Sun Jul 24 08:22:36 2022
 
 # Variables
 
@@ -33,7 +34,8 @@ LC_CTYPE = en_US.UTF-8
 HOMEDRIVE = C:
 # automatic
 @F = $(notdir $@)
-# automatic
+# automatic 
+
 ^D = $(patsubst %/,%,$(dir $^))
 # makefile
 CURDIR := c:/Users/outstager.vinoth/go/src/github.com/vinothsha/type
@@ -87,7 +89,8 @@ USERPROFILE = C:\Users\outstager.vinoth
 MSYSTEM_CARCH = x86_64
 # environment
 EXEPATH = C:\Program Files\Git
-# environment
+# environm 
+ent
 BASH_ENV = C:/Program Files/Git/etc/bash.bashrc
 # environment
 ALLUSERSPROFILE = C:\ProgramData
@@ -132,7 +135,8 @@ USERNAME = outstager.vinoth
 # environment
 PUBLIC = C:\Users\Public
 # environment
-MANPATH = C:\Program Files\Git\mingw64\local\man;C:\Program Files\Git\mingw64\share\man;C:\Program Files\Git\usr\local\man;C:\Program Files\Git\usr\share\man;C:\Program Files\Git\usr\man;C:\Program Files\Git\share\man
+MANPATH = C:\Program Files\Git\mingw64\local\man;C:\Program Files\Git\mingw64\share\man;C:\Program Files\Git\usr\local\man;C:\Program Files\Git\usr\share\man;C:\Program F 
+iles\Git\usr\man;C:\Program Files\Git\share\man
 # environment
 GOMODCACHE = C:\Users\outstager.vinoth\go\pkg\mod
 # environment
@@ -142,7 +146,7 @@ VSCODE_CLI = 1
 # environment
 VSCODE_CODE_CACHE_PATH = C:\Users\outstager.vinoth\AppData\Roaming\Code\CachedData\3b889b090b5ad5793f524b5d1d39fda662b96a2a
 # environment
-APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
 # environment
 COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
 # environment
@@ -207,7 +211,8 @@ MFLAGS = -Rrqp
 *D = $(patsubst %/,%,$(dir $*))
 # environment
 ORIGINAL_TMP = C:/Users/OUTSTA~1.VIN/AppData/Local/Temp
-# environment
+# envir 
+onment
 SYSTEMROOT = C:\Windows
 # automatic
 +D = $(patsubst %/,%,$(dir $+))
@@ -232,7 +237,8 @@ GOPRIVATE = "gitlab.dt.ae"
 # environment
 LC_ALL = C
 # automatic
-^F = $(notdir $^)
+^F =  
+$(notdir $^)
 # default
 SUFFIXES := 
 # environment
@@ -258,7 +264,8 @@ MINGW_PACKAGE_PREFIX = mingw-w64-x86_64
 # environment
 USERDOMAIN_ROAMINGPROFILE = DT
 # variable set hash-table stats:
-# Load=123/1024=12%, Rehash=0, Collisions=12/143=8%
+# Load=123/1024=12%, Reh 
+ash=0, Collisions=12/143=8%
 
 # Pattern-specific Variable Values
 
@@ -269,7 +276,8 @@ USERDOMAIN_ROAMINGPROFILE = DT
 # . (key c:/Users/outstager.vinoth/go/src/github.com/vinothsha/type, mtime 1658330551): 10 files, no impossibilities.
 # C:\Program Files\Git\mingw64\bin (key C:/Program Files/Git/mingw64/bin, mtime 1657712804): 143 files, no impossibilities.
 # C:\Program Files\Git\usr\bin (key C:/Program Files/Git/usr/bin, mtime 1657712803): 306 files, no impossibilities so far.
-# C:\Program Files\Git\usr\local\bin: could not be stat'd.
+# C:\Program Files\Git\usr\ 
+local\bin: could not be stat'd.
 # C:\Users\outstager.vinoth\bin: could not be stat'd.
 
 # 459 files, no impossibilities in 5 directories.
@@ -292,7 +300,8 @@ all:
 genpbgo:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
-#  File has not been updated.
+#  File has not been  
+updated.
 #  commands to execute (from `makefile', line 2):
 	protoc --go_out=.  --grpc-gateway_out=.  proto/user.proto
 	protoc --go-grpc_out=require_unimplemented_servers=false:. proto/user.proto
@@ -310,7 +319,8 @@ makefile:
 #  Last modified 2022-07-21 21:06:12
 #  File has been updated.
 #  Successfully updated.
-# variable set hash-table stats:
+# variable set hash-table 
+ stats:
 # Load=0/32=0%, Rehash=0, Collisions=0/0=0%
 
 # Not a target:
@@ -330,10 +340,11 @@ makefile:
 # # of strings in strcache: 1
 # # of strcache buffers: 1
 # strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
-# strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
-
-# Finished Make data base on Fri Jul 22 12:41:42 2022
-
- 
+# strcache free: total = 40 
 make.exe: *** No rule to make target `all'.  Stop.
 
+87 / max = 4087 / min = 4087 / avg = 4087
+
+# Finished Make data base on Sun Jul 24 08:22:36 2022
+
+ 
