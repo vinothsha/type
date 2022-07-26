@@ -5,7 +5,7 @@ package type;
 option go_package="./pb";
 import "google/api/annotations.proto";
 message BasicDetails{
-    string useruid=1;
+    string uid=1;
     string first_name=2;
     string last_name=3;
     string email=4;
