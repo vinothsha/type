@@ -12,10 +12,14 @@ message BasicDetails{
     string mobile=5;
     string status=6;
     bool active=7;
-    repeated string userfavourite=8; 
+    repeated UserFav userfavourite=8; 
     
 }
-
+message UserFav{
+    string uid=1;
+    string favname=2;
+    bool active=3;
+}
 message BasicDetailsRequest{
     BasicDetails basicdetails=1;
 }
