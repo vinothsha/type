@@ -16,7 +16,7 @@ message BasicDetails{
     
 }
 message UserFav{
-    string favuid=1;
+    string uid=1;
     string favname=2;
     bool active=3;
 }
