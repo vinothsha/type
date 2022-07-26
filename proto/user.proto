@@ -5,7 +5,7 @@ package type;
 option go_package="./pb";
 import "google/api/annotations.proto";
 message BasicDetails{
-    string uid=1;
+    string useruid=1;
     string first_name=2;
     string last_name=3;
     string email=4;
@@ -16,7 +16,7 @@ message BasicDetails{
     
 }
 message UserFav{
-    string uid=1;
+    string favuid=1;
     string favname=2;
     bool active=3;
 }
