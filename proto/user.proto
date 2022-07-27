@@ -13,12 +13,18 @@ message BasicDetails{
     string status=6;
     bool active=7;
     repeated UserFav userfavourite=8; 
+    UserRole has_user_role=9;
     
 }
 message UserFav{
     string uid=1;
     string favname=2;
     bool active=3;
+}
+message UserRole{
+  string uid=1;
+  string roleid=2;
+  string rolename=3;
 }
 message BasicDetailsRequest{
     BasicDetails basicdetails=1;

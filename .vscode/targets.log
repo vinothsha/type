@@ -6,8 +6,9 @@ make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --quest
 # PARTICULAR PURPOSE.
 
 # This program built for i386-pc-mingw32
+ 
 
-# Make data base, printed on Tue Jul 26 15:31:55 2022
+# Make data base, printed on Wed Jul 27 09:55:26 2022
 
 # Variables
 
@@ -33,7 +34,8 @@ LC_CTYPE = en_US.UTF-8
 HOMEDRIVE = C:
 # automatic
 @F = $(notdir $@)
-# automatic
+# automatic 
+
 ^D = $(patsubst %/,%,$(dir $^))
 # makefile
 CURDIR := c:/Users/outstager.vinoth/go/src/github.com/vinothsha/type
@@ -48,7 +50,8 @@ VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupp
 # environment
 _ = C:/Users/outstager.vinoth/AppData/Local/Programs/Microsoft VS Code/Code.exe
 # environment
-ONEDRIVE = C:\Users\outstager.vinoth\OneDrive
+ONEDRIVE = C:\Users\outstager.vi 
+noth\OneDrive
 # environment
 CLIENTNAME = OCS-L00055
 # environment
@@ -64,7 +67,8 @@ VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
 # environment
 PROGRAMW6432 = C:\Program Files
 # environment
-INFOPATH = C:\Program Files\Git\usr\local\info;C:\Program Files\Git\usr\share\info;C:\Program Files\Git\usr\info;C:\Program Files\Git\share\info
+INFOPATH = C:\Program Files\Git\usr\local\info;C:\Program Fi 
+les\Git\usr\share\info;C:\Program Files\Git\usr\info;C:\Program Files\Git\share\info
 # environment
 PROGRAMDATA = C:\ProgramData
 # environment
@@ -142,13 +146,14 @@ VSCODE_CLI = 1
 # environment
 VSCODE_CODE_CACHE_PATH = C:\Users\outstager.vinoth\AppData\Roaming\Code\CachedData\3b889b090b5ad5793f524b5d1d39fda662b96a2a
 # environment
-APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
 # environment
 COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
 # environment
 LOGONSERVER = \\NEWDOMAIN
 # environment
-VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+V 
+SCODE_HANDLES_UNCAUGHT_ERRORS = true
 # environment
 USERDOMAIN = DT
 # environment
@@ -170,7 +175,8 @@ MINGW_CHOST = x86_64-w64-mingw32
 # makefile
 .DEFAULT_GOAL := genpbgo
 # environment
-PROGRAMFILES(X86) = C:\Program Files (x86)
+PRO 
+GRAMFILES(X86) = C:\Program Files (x86)
 # automatic
 %D = $(patsubst %/,%,$(dir $%))
 # environment
@@ -189,7 +195,8 @@ TERM_PROGRAM = mintty
 TMPDIR = C:\Users\OUTSTA~1.VIN\AppData\Local\Temp
 # automatic
 *F = $(notdir $*)
-# environment
+# 
+ environment
 PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 79 Stepping 1, GenuineIntel
 # environment
 OS = Windows_NT
@@ -232,7 +239,8 @@ GOPRIVATE = "gitlab.dt.ae"
 # environment
 LC_ALL = C
 # automatic
-^F = $(notdir $^)
+^F = $ 
+(notdir $^)
 # default
 SUFFIXES := 
 # environment
@@ -258,7 +266,8 @@ MINGW_PACKAGE_PREFIX = mingw-w64-x86_64
 # environment
 USERDOMAIN_ROAMINGPROFILE = DT
 # variable set hash-table stats:
-# Load=123/1024=12%, Rehash=0, Collisions=12/143=8%
+# Load=123/1024=12%, Rehas 
+h=0, Collisions=12/143=8%
 
 # Pattern-specific Variable Values
 
@@ -269,7 +278,8 @@ USERDOMAIN_ROAMINGPROFILE = DT
 # . (key c:/Users/outstager.vinoth/go/src/github.com/vinothsha/type, mtime 1658330551): 10 files, no impossibilities.
 # C:\Program Files\Git\mingw64\bin (key C:/Program Files/Git/mingw64/bin, mtime 1657712804): 143 files, no impossibilities.
 # C:\Program Files\Git\usr\bin (key C:/Program Files/Git/usr/bin, mtime 1657712803): 306 files, no impossibilities so far.
-# C:\Program Files\Git\usr\local\bin: could not be stat'd.
+# C:\Program Files\Git\usr\lo 
+cal\bin: could not be stat'd.
 # C:\Users\outstager.vinoth\bin: could not be stat'd.
 
 # 459 files, no impossibilities in 5 directories.
@@ -292,7 +302,8 @@ all:
 genpbgo:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
-#  File has not been updated.
+#  File has not been up 
+dated.
 #  commands to execute (from `makefile', line 2):
 	protoc --go_out=.  --grpc-gateway_out=.  proto/user.proto
 	protoc --go-grpc_out=require_unimplemented_servers=false:. proto/user.proto
@@ -310,7 +321,8 @@ makefile:
 #  Last modified 2022-07-21 21:06:12
 #  File has been updated.
 #  Successfully updated.
-# variable set hash-table stats:
+# variable set hash-table s 
+tats:
 # Load=0/32=0%, Rehash=0, Collisions=0/0=0%
 
 # Not a target:
@@ -330,9 +342,10 @@ makefile:
 # # of strings in strcache: 1
 # # of strcache buffers: 1
 # strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
-# strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
+# strcache free: total = 4087 
+ / max = 4087 / min = 4087 / avg = 4087
 
-# Finished Make data base on Tue Jul 26 15:31:55 2022
+# Finished Make data base on Wed Jul 27 09:55:26 2022
 
  
 make.exe: *** No rule to make target `all'.  Stop.
