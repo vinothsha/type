@@ -6,8 +6,8 @@ option go_package="./pb";
 import "google/api/annotations.proto";
 message BasicDetails{
     string uid=1;
-    string first_name=2;
-    string last_name=3;
+    string firstname=2;
+    string lastname=3;
     string email=4;
     string mobile=5;
     string status=6;
@@ -26,8 +26,8 @@ message UserFav{
 }
 message CreateResponse{
     string uid=1;
-    string first_name=2;
-    string last_name=3;
+    string firstname=2;
+    string lastname=3;
     string email=4;
     string mobile=5;
     string status=6;
@@ -57,8 +57,8 @@ message DeleteResponse {
 }
 message UpdateResponse{
     string uid=1;
-    string first_name=2;
-    string last_name=3;
+    string firstname=2;
+    string lastname=3;
     string email=4;
     string mobile=5;
     string status=6;
