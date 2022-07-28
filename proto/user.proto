@@ -13,36 +13,61 @@ message BasicDetails{
     string status=6;
     bool active=7;
     repeated UserFav userfavourite=8; 
-    UserRole has_user_role=9;
-    
+    string hasuserrole=9; 
+}
+
+message BasicDetailsRequest{
+    BasicDetails basicdetails=1;
 }
 message UserFav{
-    string uid=1;
-    string favname=2;
-    bool active=3;
+  string uid=1;
+  repeated string favname=2;
+  bool active=3;
 }
+message CreateResponse{
+    string uid=1;
+    string first_name=2;
+    string last_name=3;
+    string email=4;
+    string mobile=5;
+    string status=6;
+    bool active=7;
+    repeated string userfavourite=8; 
+    UserRole hasuserrole=9;
+}
+
 message UserRole{
   string uid=1;
   string roleid=2;
   string rolename=3;
 }
-message BasicDetailsRequest{
-    BasicDetails basicdetails=1;
-}
+
 message ByteResponse {
   bytes res = 1;
 }
 message GetRequest {
   string uid = 1;
 }
+
+message DeleteRequest{
+  repeated string uids=1;
+}
 message DeleteResponse {
-  repeated string uid=1;
+   string message=1;
 }
 message UpdateResponse{
-  repeated string uid=1;
+    string uid=1;
+    string first_name=2;
+    string last_name=3;
+    string email=4;
+    string mobile=5;
+    string status=6;
+    bool active=7;
+    repeated string userfavourite=8; 
+    UserRole hasuserrole=9;
 }
 service UserService{
-    rpc CreateUser(BasicDetailsRequest)returns(BasicDetails){
+    rpc CreateUser(BasicDetailsRequest)returns(CreateResponse){
         option(google.api.http)={
             post:"/v1/user"
             body:"*"
@@ -53,14 +78,14 @@ service UserService{
         get : "/v1/user"
       };
     }
-    rpc GetUser(GetRequest) returns (BasicDetails) {
+    rpc GetUser(GetRequest) returns (ByteResponse) {
     option (google.api.http) = {
       get : "/v1/user/{uid}"
       };
     }
-    rpc DeteleUser(GetRequest)returns(DeleteResponse){
+    rpc DeleteUser(DeleteRequest)returns(DeleteResponse){
       option(google.api.http)={
-        post:"/v1/user/delete/{uid}"
+        post:"/v1/user/delete"
       };
     }
     rpc UpdateUser(BasicDetails)returns(UpdateResponse){
