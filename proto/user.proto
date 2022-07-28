@@ -32,7 +32,7 @@ message CreateResponse{
     string mobile=5;
     string status=6;
     bool active=7;
-    repeated UserFav userfavourite=8; 
+    UserFav userfavourite=8; 
     UserRole hasuserrole=9;
 }
 
@@ -63,7 +63,7 @@ message UpdateResponse{
     string mobile=5;
     string status=6;
     bool active=7;
-    repeated UserFav userfavourite=8; 
+    UserFav userfavourite=8; 
     UserRole hasuserrole=9;
 }
 service UserService{

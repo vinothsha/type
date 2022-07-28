@@ -247,15 +247,15 @@ type CreateResponse struct {
 	sizeCache     protoimpl.SizeCache
 	unknownFields protoimpl.UnknownFields
 
-	Uid           string     `protobuf:"bytes,1,opt,name=uid,proto3" json:"uid,omitempty"`
-	Firstname     string     `protobuf:"bytes,2,opt,name=firstname,proto3" json:"firstname,omitempty"`
-	Lastname      string     `protobuf:"bytes,3,opt,name=lastname,proto3" json:"lastname,omitempty"`
-	Email         string     `protobuf:"bytes,4,opt,name=email,proto3" json:"email,omitempty"`
-	Mobile        string     `protobuf:"bytes,5,opt,name=mobile,proto3" json:"mobile,omitempty"`
-	Status        string     `protobuf:"bytes,6,opt,name=status,proto3" json:"status,omitempty"`
-	Active        bool       `protobuf:"varint,7,opt,name=active,proto3" json:"active,omitempty"`
-	Userfavourite []*UserFav `protobuf:"bytes,8,rep,name=userfavourite,proto3" json:"userfavourite,omitempty"`
-	Hasuserrole   *UserRole  `protobuf:"bytes,9,opt,name=hasuserrole,proto3" json:"hasuserrole,omitempty"`
+	Uid           string    `protobuf:"bytes,1,opt,name=uid,proto3" json:"uid,omitempty"`
+	Firstname     string    `protobuf:"bytes,2,opt,name=firstname,proto3" json:"firstname,omitempty"`
+	Lastname      string    `protobuf:"bytes,3,opt,name=lastname,proto3" json:"lastname,omitempty"`
+	Email         string    `protobuf:"bytes,4,opt,name=email,proto3" json:"email,omitempty"`
+	Mobile        string    `protobuf:"bytes,5,opt,name=mobile,proto3" json:"mobile,omitempty"`
+	Status        string    `protobuf:"bytes,6,opt,name=status,proto3" json:"status,omitempty"`
+	Active        bool      `protobuf:"varint,7,opt,name=active,proto3" json:"active,omitempty"`
+	Userfavourite *UserFav  `protobuf:"bytes,8,opt,name=userfavourite,proto3" json:"userfavourite,omitempty"`
+	Hasuserrole   *UserRole `protobuf:"bytes,9,opt,name=hasuserrole,proto3" json:"hasuserrole,omitempty"`
 }
 
 func (x *CreateResponse) Reset() {
@@ -339,7 +339,7 @@ func (x *CreateResponse) GetActive() bool {
 	return false
 }
 
-func (x *CreateResponse) GetUserfavourite() []*UserFav {
+func (x *CreateResponse) GetUserfavourite() *UserFav {
 	if x != nil {
 		return x.Userfavourite
 	}
@@ -609,15 +609,15 @@ type UpdateResponse struct {
 	sizeCache     protoimpl.SizeCache
 	unknownFields protoimpl.UnknownFields
 
-	Uid           string     `protobuf:"bytes,1,opt,name=uid,proto3" json:"uid,omitempty"`
-	Firstname     string     `protobuf:"bytes,2,opt,name=firstname,proto3" json:"firstname,omitempty"`
-	Lastname      string     `protobuf:"bytes,3,opt,name=lastname,proto3" json:"lastname,omitempty"`
-	Email         string     `protobuf:"bytes,4,opt,name=email,proto3" json:"email,omitempty"`
-	Mobile        string     `protobuf:"bytes,5,opt,name=mobile,proto3" json:"mobile,omitempty"`
-	Status        string     `protobuf:"bytes,6,opt,name=status,proto3" json:"status,omitempty"`
-	Active        bool       `protobuf:"varint,7,opt,name=active,proto3" json:"active,omitempty"`
-	Userfavourite []*UserFav `protobuf:"bytes,8,rep,name=userfavourite,proto3" json:"userfavourite,omitempty"`
-	Hasuserrole   *UserRole  `protobuf:"bytes,9,opt,name=hasuserrole,proto3" json:"hasuserrole,omitempty"`
+	Uid           string    `protobuf:"bytes,1,opt,name=uid,proto3" json:"uid,omitempty"`
+	Firstname     string    `protobuf:"bytes,2,opt,name=firstname,proto3" json:"firstname,omitempty"`
+	Lastname      string    `protobuf:"bytes,3,opt,name=lastname,proto3" json:"lastname,omitempty"`
+	Email         string    `protobuf:"bytes,4,opt,name=email,proto3" json:"email,omitempty"`
+	Mobile        string    `protobuf:"bytes,5,opt,name=mobile,proto3" json:"mobile,omitempty"`
+	Status        string    `protobuf:"bytes,6,opt,name=status,proto3" json:"status,omitempty"`
+	Active        bool      `protobuf:"varint,7,opt,name=active,proto3" json:"active,omitempty"`
+	Userfavourite *UserFav  `protobuf:"bytes,8,opt,name=userfavourite,proto3" json:"userfavourite,omitempty"`
+	Hasuserrole   *UserRole `protobuf:"bytes,9,opt,name=hasuserrole,proto3" json:"hasuserrole,omitempty"`
 }
 
 func (x *UpdateResponse) Reset() {
@@ -701,7 +701,7 @@ func (x *UpdateResponse) GetActive() bool {
 	return false
 }
 
-func (x *UpdateResponse) GetUserfavourite() []*UserFav {
+func (x *UpdateResponse) GetUserfavourite() *UserFav {
 	if x != nil {
 		return x.Userfavourite
 	}
@@ -760,7 +760,7 @@ var file_proto_user_proto_rawDesc = []byte{
 	0x20, 0x01, 0x28, 0x09, 0x52, 0x06, 0x73, 0x74, 0x61, 0x74, 0x75, 0x73, 0x12, 0x16, 0x0a, 0x06,
 	0x61, 0x63, 0x74, 0x69, 0x76, 0x65, 0x18, 0x07, 0x20, 0x01, 0x28, 0x08, 0x52, 0x06, 0x61, 0x63,
 	0x74, 0x69, 0x76, 0x65, 0x12, 0x33, 0x0a, 0x0d, 0x75, 0x73, 0x65, 0x72, 0x66, 0x61, 0x76, 0x6f,
-	0x75, 0x72, 0x69, 0x74, 0x65, 0x18, 0x08, 0x20, 0x03, 0x28, 0x0b, 0x32, 0x0d, 0x2e, 0x74, 0x79,
+	0x75, 0x72, 0x69, 0x74, 0x65, 0x18, 0x08, 0x20, 0x01, 0x28, 0x0b, 0x32, 0x0d, 0x2e, 0x74, 0x79,
 	0x70, 0x65, 0x2e, 0x55, 0x73, 0x65, 0x72, 0x46, 0x61, 0x76, 0x52, 0x0d, 0x75, 0x73, 0x65, 0x72,
 	0x66, 0x61, 0x76, 0x6f, 0x75, 0x72, 0x69, 0x74, 0x65, 0x12, 0x30, 0x0a, 0x0b, 0x68, 0x61, 0x73,
 	0x75, 0x73, 0x65, 0x72, 0x72, 0x6f, 0x6c, 0x65, 0x18, 0x09, 0x20, 0x01, 0x28, 0x0b, 0x32, 0x0e,
@@ -793,7 +793,7 @@ var file_proto_user_proto_rawDesc = []byte{
 	0x74, 0x61, 0x74, 0x75, 0x73, 0x12, 0x16, 0x0a, 0x06, 0x61, 0x63, 0x74, 0x69, 0x76, 0x65, 0x18,
 	0x07, 0x20, 0x01, 0x28, 0x08, 0x52, 0x06, 0x61, 0x63, 0x74, 0x69, 0x76, 0x65, 0x12, 0x33, 0x0a,
 	0x0d, 0x75, 0x73, 0x65, 0x72, 0x66, 0x61, 0x76, 0x6f, 0x75, 0x72, 0x69, 0x74, 0x65, 0x18, 0x08,
-	0x20, 0x03, 0x28, 0x0b, 0x32, 0x0d, 0x2e, 0x74, 0x79, 0x70, 0x65, 0x2e, 0x55, 0x73, 0x65, 0x72,
+	0x20, 0x01, 0x28, 0x0b, 0x32, 0x0d, 0x2e, 0x74, 0x79, 0x70, 0x65, 0x2e, 0x55, 0x73, 0x65, 0x72,
 	0x46, 0x61, 0x76, 0x52, 0x0d, 0x75, 0x73, 0x65, 0x72, 0x66, 0x61, 0x76, 0x6f, 0x75, 0x72, 0x69,
 	0x74, 0x65, 0x12, 0x30, 0x0a, 0x0b, 0x68, 0x61, 0x73, 0x75, 0x73, 0x65, 0x72, 0x72, 0x6f, 0x6c,
 	0x65, 0x18, 0x09, 0x20, 0x01, 0x28, 0x0b, 0x32, 0x0e, 0x2e, 0x74, 0x79, 0x70, 0x65, 0x2e, 0x55,
