@@ -12,7 +12,7 @@ message BasicDetails{
     string mobile=5;
     string status=6;
     bool active=7;
-    repeated UserFav userfavourite=8; 
+    repeated string userfavourite=8; 
     string hasuserrole=9; 
 }
 
@@ -32,7 +32,7 @@ message CreateResponse{
     string mobile=5;
     string status=6;
     bool active=7;
-    repeated string userfavourite=8; 
+    repeated UserFav userfavourite=8; 
     UserRole hasuserrole=9;
 }
 
@@ -63,7 +63,7 @@ message UpdateResponse{
     string mobile=5;
     string status=6;
     bool active=7;
-    repeated string userfavourite=8; 
+    repeated UserFav userfavourite=8; 
     UserRole hasuserrole=9;
 }
 service UserService{
